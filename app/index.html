@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Angularjs Structure</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <!-- ROUTING -->
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- API CALL -->
+    <script src="/bower_components/angular-resource/angular-resource.js"></script>
+</head>
+<body>
+<a ui-sref="sampleUrl1"> Test Page</a>< /br>
+<a ui-sref="sampleUrl2">Test Page 2</a>
+
+<div ui-view>
+
+</div>
+
+<script src="app.js"></script>
+<script src="route.js"></script>
+
+<!-- controller -->
+<script src="components/sample/sampleController.js"></script>
+<script src="components/test/testController.js"></script>
+</body>
+</html>
+
+
